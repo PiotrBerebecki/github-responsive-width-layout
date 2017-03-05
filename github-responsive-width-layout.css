@@ -35,3 +35,9 @@ table.files td.age {
   width: 10% !important;
   min-width: 0 !important;
 }
+
+.discussion-timeline {
+  width: 100% !important;
+  max-width: 760px !important;
+  min-width: 0 !important;
+}
