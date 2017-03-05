@@ -8,7 +8,7 @@ GitHub.com without the Chrome extension:
 
 ![GitHub without extension](https://raw.githubusercontent.com/PiotrBerebecki/graphics/master/github-without-responsive-width-layout-extension.gif)
 
-GitHub.com the Chrome extension:
+GitHub.com with the Chrome extension:
 
 ![GitHub with extension](https://raw.githubusercontent.com/PiotrBerebecki/graphics/master/github-with-responsive-width-layout-extension.gif)
 
@@ -51,4 +51,4 @@ has been replaced with:
 }
 ```
 
-That's it :smiley: no magic required.
+That's it :smiley: no other magic required.
