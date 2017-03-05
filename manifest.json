@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Github Responsive Width Layout",
+  "description": "Overwrites github-without-responsive-width-layout-extensionub css rules related to width so that GitHub.com can fit narrow browser width",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*", "https://gist.github.com/*"],
+      "css": ["github-responsive-width-layout.css"]
+    }
+  ]
+}

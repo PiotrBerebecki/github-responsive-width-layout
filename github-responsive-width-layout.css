@@ -1,0 +1,37 @@
+body {
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.header .container {
+  width: 99% !important;
+  max-width: 980px !important;
+  min-width: 0 !important;
+}
+
+.container {
+  width: 99% !important;
+  max-width: 980px !important;
+  min-width: 0 !important;
+}
+
+.avatar {
+  height: auto !important;
+}
+
+table.files td.content {
+  width: 20% !important;
+  min-width: 0 !important;
+  max-width: 0 !important;
+}
+
+table.files td.message {
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: 0 !important;
+}
+
+table.files td.age {
+  width: 10% !important;
+  min-width: 0 !important;
+}
