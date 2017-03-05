@@ -1,3 +1,4 @@
+/* General */
 body {
   width: 100% !important;
   min-width: 0 !important;
@@ -15,10 +16,7 @@ body {
   min-width: 0 !important;
 }
 
-.avatar {
-  height: auto !important;
-}
-
+/* File list */
 table.files td.content {
   width: 20% !important;
   min-width: 0 !important;
@@ -36,8 +34,25 @@ table.files td.age {
   min-width: 0 !important;
 }
 
+/* Discussion */
 .discussion-timeline {
   width: 100% !important;
   max-width: 760px !important;
   min-width: 0 !important;
+}
+
+/* Homepage */
+.shelf-content {
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.mini-repo-list-item .repo-and-owner {
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+/* Profile */
+.avatar {
+  height: auto !important;
 }
