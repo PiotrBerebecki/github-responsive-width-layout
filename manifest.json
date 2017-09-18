@@ -19,7 +19,8 @@
   "content_scripts": [
     {
       "matches": ["https://github.com/*", "https://gist.github.com/*"],
-      "css": ["github-responsive-width-layout.css"]
+      "css": ["github-responsive-width-layout.css"],
+      "js": ["github-responsive-width-layout.js"]
     }
   ]
 }
