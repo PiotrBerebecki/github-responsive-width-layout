@@ -38,7 +38,7 @@ table.files td.age {
 .discussion-timeline {
   width: 100% !important;
   min-width: 0 !important;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 /* Homepage */
@@ -63,7 +63,15 @@ table.files td.age {
   height: 100%;
 }
 
+.discussion-sidebar-responsive-toggle {
+  display: none;
+}
+
 @media (max-width: 900px) {
+  .discussion-timeline {
+    margin-right: 5px;
+  }
+
   .discussion-sidebar {
     width: 0 !important;
   }
