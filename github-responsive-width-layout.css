@@ -37,8 +37,8 @@ table.files td.age {
 /* Discussion */
 .discussion-timeline {
   width: 100% !important;
-  max-width: 760px !important;
   min-width: 0 !important;
+  margin-right: 20px;
 }
 
 /* Homepage */
@@ -55,4 +55,51 @@ table.files td.age {
 /* Profile */
 .avatar {
   height: auto !important;
+}
+
+#discussion_bucket {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+}
+
+.discussion-sidebar-responsive-toggle {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .discussion-timeline {
+    margin-right: 5px;
+  }
+
+  .discussion-sidebar {
+    width: 0 !important;
+  }
+
+  .discussion-sidebar.open {
+    width: 200px !important;
+  }
+
+  .discussion-sidebar:not(.open) > * {
+    display: none;
+  }
+
+  .discussion-sidebar-responsive-toggle {
+    cursor: pointer;
+    display: flex !important;
+    justify-content: center;
+    height: 100%;
+    margin-right: 5px;
+    margin-top: 12px;
+    width: 40px;
+  }
+
+  .discussion-sidebar-responsive-toggle .awesome-toggle path {
+    fill: #c3c8cf;
+  }
+
+  .discussion-sidebar-responsive-toggle:hover .awesome-toggle path,
+  .discussion-sidebar-responsive-toggle.open .awesome-toggle path {
+    fill: #0366d6;
+  }
 }
