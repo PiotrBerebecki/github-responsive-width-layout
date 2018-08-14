@@ -43,5 +43,3 @@ has been replaced with:
   ...
 }
 ```
-
-That's it :smiley: no other magic required.

@@ -34,13 +34,6 @@ table.files td.age {
   min-width: 0 !important;
 }
 
-/* Discussion */
-.discussion-timeline {
-  width: 100% !important;
-  min-width: 0 !important;
-  margin-right: 20px;
-}
-
 /* Homepage */
 .shelf-content {
   width: 100% !important;
@@ -52,9 +45,11 @@ table.files td.age {
   min-width: 0 !important;
 }
 
-/* Profile */
-.avatar {
-  height: auto !important;
+/* Discussion */
+.discussion-timeline {
+  width: 100% !important;
+  min-width: 0 !important;
+  margin-right: 20px;
 }
 
 #discussion_bucket {

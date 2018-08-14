@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "GitHub Responsive Width Layout",
   "description": "Overwrites GitHub.com css rules related to width so that it can fit a narrow browser screen",
-  "version": "0.0.0.1",
+  "version": "1.0.1",
   "permissions": [
     "tabs"
   ],
